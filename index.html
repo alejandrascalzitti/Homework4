@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <script defer src="quiz.js"></script>
+    <title>Quiz App</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="question-container" class="hide">
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn-A">A</button>
+                <button class="btn-B">B</button>
+                <button class="btn-C">C</button>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="next-btn" class="next-btn hide">Next</button>
+        </div>
+        <div id="scoreContainer" style= "display: none;">
+            <img src = smile.png>
+
+        </div>
+        <div id= "timer">
+            <div id="counter">10</div>
+            <div id="timer"></div>
+        </div>
+    </div>
+</body>
+
+</html>
